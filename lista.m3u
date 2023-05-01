@@ -1,4 +1,4 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-name="Canal_1_MD_FM_JOI" group-title="MD_FM_JOI" radio="true", Canal_1_MD_FM_JOI
-pipe://ffmpeg -loglevel fatal -i https://superaudio.radio.br/radio/8070/stream -vcodec copy -acodec copy -metadata service_name=011JOI -metadata -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
+pipe://ffmpeg -loglevel fatal -i https://superaudio.radio.br/radio/8070/stream -vcodec copy -acodec copy -metadata service_name=Canal_1_MD_FM_JOI -metadata service_provider=IPTV-Radio -mpegts_service_type advanced_codec_digital_radio -f mpegts pipe:1
